@@ -11,17 +11,16 @@ public class DOCHandler extends AbstractHandler {
 
     @Override
     public void create() {
-        System.out.printf("\nВи можете cтворити документи типу__ " + docType);
+        System.out.print("\nВи можете cтворити документи типу__ " + docType);
     }
 
     @Override
     public void change() {
-        System.out.printf("\nВи можете змінити документи типу__ " + docType);
+        System.out.print("\nВи можете змінити документи типу__ " + docType);
     }
 
     @Override
     public void save() {
-        System.out.printf("\nВи можете зберегти документи типу__ " + docType);
-        System.out.println("\n ");
-    }
+        System.out.print("\nВи можете зберегти документи типу__ " + docType);
+       }
 }

@@ -6,10 +6,10 @@ public class User {
     public String docType;
 
     public User() {
-        this.docType = enterFile();
+        this.docType = select();
     }
 
-    public String enterFile() {
+    private String select() {
         Scanner input = new Scanner(System.in);
         System.out.println("Введіть тип документу: XML, DOC або TXT");
         String docType = input.nextLine();
